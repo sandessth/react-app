@@ -1,35 +1,65 @@
 * {
   margin: 0;
   box-sizing: border-box;
+ 
   background-color: rgb(253, 243, 246);
   
 }
+
+.bg{
+    height: 100vh;
+    
+    background-position: center;
+    position: relative;
+    
+  
+}
+
 .grid-container {
   
-  
+  border: 10px ridge rgb(112, 70, 70);
   display: grid;
   grid-template-areas:
     'header header header header'
     'menu main main main'
     'menu main main main'
     'menu footer footer footer';
-  gap: 10px;
-  /* background-color: rgb(103, 68, 28); */
+  gap: 8px;
   padding: 10px;
-  grid-row: auto;
-  /* color: azure; */
+ 
   grid-auto-flow: column;
+  
 
 }
 
+.main{
+  display: flex;
+  justify-content: space-around;
+ 
+  
 
 
+}
 
+.button{
+  /* align-items: end; */
+  display: flex;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  
+}
 
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+  
+}
 
-
-
-
+.link{
+  display: flex;
+ 
+}
 
 
 

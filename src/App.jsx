@@ -53,9 +53,19 @@ function App() {
   return (
     <>
       
-      <div>
-        <div>
+      <div className='bg'>
+        <div >
+          <br></br>
+          <div className='main'>
           <h2>CSS Layout and Printing Class Profiles in a React Project with Vite</h2>
+          <a class="button" href="https://github.com/sandessth/-CSS-Layout-and-Printing-Class-Profiles">access repo here</a>
+          </div>
+          <br></br>
+          <ul>
+            <li>Understand the concepts of flow layout, position layout, and flexbox in CSS.</li>
+            <li>Implement different CSS layout techniques in a React component.</li>
+            <li>Create a list of class profiles and print them in a React project.</li>
+          </ul>
           <br></br>
           <div className="info" class="grid-container">
             {info_data}
